@@ -1,0 +1,11 @@
+{
+    "fields": {
+        "project": {
+            "key": "RSJIR"
+        },
+        "summary": "File Size too Big",
+        "issuetype": {
+            "name": "Bug"
+        }
+    }
+}
