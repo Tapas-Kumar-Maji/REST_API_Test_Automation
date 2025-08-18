@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="library_api.Library_API">
+      <class name="practice_3Aug2025.JiraApi">
         <methods>
-          <include name="addBook"/>
-          <include name="deleteBook"/>
+          <include name="createBugTest"/>
+          <include name="initialize"/>
         </methods>
-      </class> <!-- library_api.Library_API -->
+      </class> <!-- practice_3Aug2025.JiraApi -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
