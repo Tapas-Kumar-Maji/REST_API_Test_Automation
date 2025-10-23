@@ -9,6 +9,7 @@ dist/
 # Ignore compiled Java classes
 *.class
 **/*.class
+*.classpath
 
 # Compiled Python bytecode
 *.py[cod]
@@ -24,6 +25,7 @@ dist/
 dist/
 target/
 test-output/
+.mvn/
 
 
 # JetBrains IDE
