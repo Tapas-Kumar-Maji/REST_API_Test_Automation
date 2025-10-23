@@ -1,8 +1,0 @@
-{
-  "query": "mutation ($locationName: String!, $characterName: String!, $episodeName: String!) {\n  createLocation(location: {name: $locationName, type: \"Country\", dimension: \"Big\"}) {\n    id\n  }\n  createCharacter(character: {name: $characterName, type: \"man\", status: \"OK\", species: \"human\", gender: \"male\", image: \"png\", originId: 14393, locationId: 838}) {\n    id\n  }\n  createEpisode(episode: {name: $episodeName, air_date: \"27th Oct\", episode: \"E2\"}) {\n    id\n  }\n  deleteLocations(locationIds: [14396, 14395]) {\n    locationsDeleted\n  }\n}\n",
-  "variables": {
-    "locationName": "#locationName",
-    "characterName": "#characterName",
-    "episodeName": "#episodeName"
-  }
-}

@@ -1,0 +1,247 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "accuracy": 50,
+    "name": "Kira Mia",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "Nigga street",
+    "types": [
+        "shoe park",
+        "shoe"
+    ],
+    "website": "http://google.com",
+    "language": "English"
+}
+HTTP/1.1 200 OK
+Date: Thu, 23 Oct 2025 10:05:51 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "e10886907cee8a494204bc0efec7aeea",
+    "scope": "APP",
+    "reference": "b697c70a59bad0b9efe3ac7b51c7c4edb697c70a59bad0b9efe3ac7b51c7c4ed",
+    "id": "b697c70a59bad0b9efe3ac7b51c7c4ed"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "accuracy": 50,
+    "name": "Sofia Nix",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "Medeline, Columbia",
+    "types": [
+        "shoe park",
+        "shoe"
+    ],
+    "website": "http://google.com",
+    "language": "Spanish"
+}
+HTTP/1.1 200 OK
+Date: Thu, 23 Oct 2025 10:05:52 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "c25d499233e92a913d840b95ac8fc4e7",
+    "scope": "APP",
+    "reference": "e58989e3ed625a5fb9c5fffadece7e0fe58989e3ed625a5fb9c5fffadece7e0f",
+    "id": "e58989e3ed625a5fb9c5fffadece7e0f"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=c25d499233e92a913d840b95ac8fc4e7
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=c25d499233e92a913d840b95ac8fc4e7
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 23 Oct 2025 10:05:52 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 242
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "Sofia Nix",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "Medeline, Columbia",
+    "types": "shoe park,shoe",
+    "website": "http://google.com",
+    "language": "Spanish"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "accuracy": 50,
+    "name": "Juliana Vega",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "Mexico City, Mexico",
+    "types": [
+        "shoe park",
+        "shoe"
+    ],
+    "website": "http://google.com",
+    "language": "Espanol"
+}
+HTTP/1.1 200 OK
+Date: Thu, 23 Oct 2025 10:05:55 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "055d88d3ba1241000839f61757b69b48",
+    "scope": "APP",
+    "reference": "41c8a28d89c954e16afd8b834c5436c641c8a28d89c954e16afd8b834c5436c6",
+    "id": "41c8a28d89c954e16afd8b834c5436c6"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=055d88d3ba1241000839f61757b69b48
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=055d88d3ba1241000839f61757b69b48
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 23 Oct 2025 10:05:55 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 246
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "Juliana Vega",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "Mexico City, Mexico",
+    "types": "shoe park,shoe",
+    "website": "http://google.com",
+    "language": "Espanol"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "055d88d3ba1241000839f61757b69b48"
+}
+HTTP/1.1 200 OK
+Date: Thu, 23 Oct 2025 10:05:57 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}

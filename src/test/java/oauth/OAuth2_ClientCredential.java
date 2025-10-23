@@ -29,7 +29,7 @@ public class OAuth2_ClientCredential {
 			assertThat().
 			statusCode(200).
 		extract().
-			path("access_token");
+			path("access_token"); 
 	}
 	
 	@Test(dependsOnMethods = { "authorizationServerEndPoint" })
@@ -41,6 +41,7 @@ public class OAuth2_ClientCredential {
 		when().
 			get("oauthapi/getCourseDetails").
 		then().
+			log().body().
 		extract().
 			response().
 			as(ResponsePojo.class);		// Jackson library is used here.

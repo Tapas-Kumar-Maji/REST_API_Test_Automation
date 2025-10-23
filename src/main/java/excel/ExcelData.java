@@ -18,7 +18,7 @@ public class ExcelData {
 	public ExcelData(String filename) throws IOException {
 		this.format = new DataFormatter();
 		filename = (filename == null || filename.isEmpty() || filename.isBlank())
-				? "src\\main\\resources\\DemoData.xlsx"
+			? "src/main/resources/DemoData.xlsx"
 				: filename;
 		XSSFWorkbook workbook = new XSSFWorkbook(filename);
 		sheet = workbook.getSheet("Sheet1");
@@ -27,7 +27,7 @@ public class ExcelData {
 	public ExcelData(String filename, String sheetName) throws IOException {
 		this.format = new DataFormatter();
 		filename = (filename == null || filename.isEmpty() || filename.isBlank())
-				? "src\\main\\resources\\DemoData.xlsx"
+			? "src/main/resources/DemoData.xlsx"
 				: filename;
 		sheetName = (sheetName == null || sheetName.isEmpty() || sheetName.isBlank())
 				? "Sheet1"

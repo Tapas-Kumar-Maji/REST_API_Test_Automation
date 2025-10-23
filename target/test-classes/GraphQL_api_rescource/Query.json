@@ -1,7 +1,0 @@
-{
-  "query": "query ($characterId: Int!, $episodeId: Int!) {\n  character(characterId: $characterId) {\n    name\n    gender\n    status\n  }\n  location(locationId: 14435) {\n    name\n  }\n  episode(episodeId: $episodeId) {\n    name\n    air_date\n    episode\n  }\n  characters(filters: {name: \"Rahul\"}) {\n    info {\n      count\n    }\n    result {\n      id\n      name\n      type\n    }\n  }\n  episodes(filters: {episode: \"hulu\"}) {\n    result {\n      id\n      name\n      air_date\n      episode\n    }\n  }\n}\n",
-  "variables": {
-    "characterId": #characterId,
-    "episodeId": #episodeId
-  }
-}
